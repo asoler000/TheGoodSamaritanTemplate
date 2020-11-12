@@ -1,21 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
-
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
-
 [class*="entypo-"] {
   width: 1em;
   height: 1em;
 }
-
-body {
-  background: #252827;
-  font-family: 'Raleway', sans-serif;
-}
-
 a,
 span,
 h1,
@@ -25,11 +17,9 @@ span {
   text-decoration: none;
   color: #999;
 }
-
 a:hover {
   color: #777;
 }
-
 h1 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1.5px;
@@ -40,7 +30,6 @@ h1 {
   border-bottom: 1px solid #777;
   padding-bottom: 0.2em;
 }
-
 h2 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1.5px;
@@ -48,15 +37,13 @@ h2 {
   font-weight: 100;
   font-size: 1.0em;
 }
-
 #content {
   margin-top: 50px;
   text-align: center;
 }
-
 .timeline {
   border-left: 0.25em solid #3FD632;
-  background: rgba(255, 255, 255, 0.1);
+  background: White!important;
   margin: 2em auto;
   line-height: 1.4em;
   padding: 1em;
@@ -68,7 +55,6 @@ h2 {
   border-radius: 0.5em;
   min-width: 22em;
   }
-  
   .event {
   min-width: 20em;
   width: 100%;
@@ -76,59 +62,50 @@ h2 {
   box-sizing: border-box;
   position: relative;
   }
-  
   .timeline .event:before,
   .timeline .event:after {
   position: absolute;
   display: block;
   top: 1em;
   }
-  
   .timeline .event:before {
   left: -15em;
-  color: rgba(255, 255, 255, 0.8);
+  color:grey!important;
   content: attr(data-date);
   text-align: right;
   font-weight: 100;
   font-size: 0.9em;
   min-width: 9em;
   }
-  
   .timeline .event:after {
   box-shadow: 0 0 0 0.2em3 #3FD632;
   left: -3.5em;
-  background: #313534;
+  background: white;
   border-radius: 50%;
   height: 0.75em;
   width: 0.75em;
   content: "";
   }
-  
   .timeline .event .member-location,
   .timeline .event .member-parameters {
   display: none;
   }
-  
   .timeline .event:last-of-type .member-location,
   .timeline .event:last-of-type .member-parameters {
   display: block;
   }
-  
   .member-infos {
   padding: 10px;
   text-align: left;
   position: relative;
   }
-  
   .member-infos > h1 {
   font-weight: bold;
   font-size: 1.4em;
   }
-  
   .member-location a:before {
   margin-right: 5px;
   }
-  
   .member-location {
   text-indent: 2px;
   }
@@ -138,7 +115,6 @@ h2 {
   font-size:2rem;
   line-height:1em;
   }
-  
   .follow,
   .options {
   width: 30px;
@@ -151,7 +127,6 @@ h2 {
   border-radius: 3px;
   display: inline-block;
   }
-  
   .follow:hover,
   .options:hover {
   box-shadow: 0 1px 0 0 #C0C0C0;
@@ -159,7 +134,6 @@ h2 {
   vertical-align: bottom;
   margin-bottom: -1px;
   }
-  
   .delete,
   .options {
   width: 30px;
@@ -172,7 +146,6 @@ h2 {
   border-radius: 3px;
   display: inline-block;
   }
-  
   .delete:hover,
   .options:hover {
   box-shadow: 0 1px 0 0 #C0C0C0;
@@ -187,11 +160,9 @@ h2 {
   line-height: 8px;
   float: right;
   }
-  
   .member-socials li {
   display: inline-block;
   }
-  
   .shots-number,
   .followers {
   font-weight: normal;
@@ -199,29 +170,21 @@ h2 {
   margin-top: 10px;
   font-size: 0.9em;
   }
-  
   .member-contact {
   position: absolute;
   right: 10px;
   top: 10px;
   }
-  
   .member-contact li {
   display: inline-block;
   margin-left: 10px;
   }
-  
   .member-shots-number {
   padding-right: 6px;
   border-right: 1px solid rgba(0, 0, 0, 0.06);
   margin-right: 6px;
   margin-left: 6px;
   }
-
-body{
-  color:grey!important;
-}
-
 .login-page {
   width: 360px;
   padding: 8% 0 0;
@@ -240,7 +203,7 @@ body{
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #f2f2f2;
+  background: #F2F2F2;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
@@ -265,7 +228,6 @@ body{
 .form button:hover,.form button:active,.form button:focus {
   background: green;
 }
-
 .covid {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -280,10 +242,9 @@ body{
   transition: all 0.3 ease;
   cursor: pointer;
 }
-
 .form .message {
   margin: 15px 0 0;
-  color: #b3b3b3;
+  color: #B3B3B3;
   font-size: 12px;
 }
 .form .message a {
@@ -313,10 +274,10 @@ body{
   padding: 0;
   font-size: 36px;
   font-weight: 300;
-  color: #1a1a1a;
+  color: #1A1A1A;
 }
 .container .info span {
-  color: #4d4d4d;
+  color: #4D4D4D;
   font-size: 12px;
 }
 .container .info span a {
@@ -329,16 +290,14 @@ body{
 .dateheader{
   color:#3FD632!important;
 }
-
 #bouton-sticky {
   position:fixed;
   bottom:1%;
   right:1%;
   z-index:9999;
 }
-
 #bouton-sticky {
-    color: #ffffff!important;
+    color: #FFFFFF!important;
     border-width: 5px!important;
     border-color: rgba(255,255,255,0.7);
     border-radius: 10px;
@@ -347,28 +306,20 @@ body{
     text-transform: uppercase!important;
     padding-left: 2em;
     padding-right: 0.7em;
-    background-image: -o-linear-gradient(290deg,#29c4a9 30%,#2b87da 64%)!important;
-    background-image: linear-gradient(160deg,#29c4a9 30%,#2b87da 64%)!important;
+    background-image: -o-linear-gradient(290deg,#29C4A9 30%,#2B87DA 64%)!important;
+    background-image: linear-gradient(160deg,#29C4A9 30%,#2B87DA 64%)!important;
 }
-
 #bouton-sticky:hover {
-    background: #29c4a9!important;
+    background: #29C4A9!important;
 }
-
 #bouton-sticky:after {
     display: none;
 }
-
-
-
 #bouton-sticky:hover:before {
     margin-left: .3em;
     right: auto;
     margin-left: -1.3em;
 }
-
-
-
 @keyframes walkanim {
   to { background-position: 100% 0; }
 }
@@ -377,19 +328,19 @@ body{
   to { transform: translateX(500%); }
 }
 #walk-container {
-	display: inline-block;
-	position: relative;
-	width: 20%;
-	padding-bottom: 30%; 
-	vertical-align: middle; 
-	overflow: hidden; 
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  padding-bottom: 30%; 
+  vertical-align: middle; 
+  overflow: hidden; 
   animation: stroll 30s linear infinite;
 }
 #walk {
-	display: inline-block;
-	position: absolute;
-	top: -200;
-	left: 0;
+  display: inline-block;
+  position: absolute;
+  top: -200;
+  left: 0;
   width: 100%;
   height: 100%;
   background-image: url(./assets/images/walk-sequence.svg);
@@ -397,13 +348,10 @@ body{
   background-size: 800%;
   animation: walkanim 1s infinite steps(7);
 }
-
 .img-fluid{
 max-width:100%!important;
 height:auto;
-
 }
-
 .glow-on-hover {
   width: 220px;
   height: 50px;
@@ -414,12 +362,10 @@ height:auto;
   cursor: pointer;
   position: relative;
   z-index: 0;
-
 }
-
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(45deg, #FF0000, #FF7300, #FFFB00, #48FF00, #00FFD5, #002BFF, #7A00FF, #FF00C8, #FF0000);
   position: absolute;
   top: -2px;
   left:-2px;
@@ -431,9 +377,7 @@ height:auto;
   animation: glowing 20s linear infinite;
   opacity: 0;
   transition: opacity .3s ease-in-out;
- 
 }
-
 .glow-on-hover:active {
       width: 220px;
   height: 50px;
@@ -444,17 +388,13 @@ height:auto;
   cursor: pointer;
   position: relative;
   z-index: 0;
-
 }
-
 .glow-on-hover:active:after {
   background: transparent;
 }
-
 .glow-on-hover:hover:before {
   opacity: 1;
 }
-
 .glow-on-hover:after {
   z-index: -1;
   content: '';
@@ -464,20 +404,16 @@ height:auto;
   background:transparent;
   left: 0;
   top: 0;
- 
 }
-
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
-
 .human-heart {
   margin: 5em;
   animation: .8s infinite beatHeart;
 }
-
 @keyframes beatHeart {
   0% {
     transform: scale(1);
